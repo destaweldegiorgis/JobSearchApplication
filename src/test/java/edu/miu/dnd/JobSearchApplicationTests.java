@@ -11,9 +11,10 @@ class JobSearchApplicationTests {
 
 	public static Logger logger = org.slf4j.LoggerFactory.getLogger(JobSearchApplicationTests.class);
 	
+	
 	@Test
 	void contextLoads() {
-		logger.info("Test case executed ....");
+		logger.info("Test case is being executed ....");
 		assertEquals(true, true);
 	}
 
