@@ -15,6 +15,7 @@ class JobSearchApplicationTests {
 	@Test
 	void contextLoads() {
 		logger.info("Test case is being executed ....");
+		logger.info("Test case is running for the second time ....");
 		assertEquals(true, true);
 	}
 
